@@ -1,0 +1,3 @@
+[submodule "pyscard"]
+	path = pyscard
+	url = https://github.com/LudovicRousseau/pyscard.git
