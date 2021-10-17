@@ -53,7 +53,6 @@ mv smartcard/doc .
 %py3_build
 
 %install
-rm -rf %{buildroot}
 %py3_install
 
 %files
@@ -65,5 +64,3 @@ rm -rf %{buildroot}
 %doc ChangeLog doc README.md
 %license LICENSE
 %{python3_sitearch}/*
-
-%changelog
