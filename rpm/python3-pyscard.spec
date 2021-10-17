@@ -58,7 +58,7 @@ rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root,-)
-%{_libdir}/%{python_version}.*/site-packages/pyscard-%{version}-*
+%{_libdir}/%{python_version}.*/site-packages/pyscard-*
 %{_libdir}/%{python_version}.*/site-packages/smartcard/*
 
 
